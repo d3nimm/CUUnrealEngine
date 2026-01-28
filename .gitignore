@@ -1,0 +1,58 @@
+# ===============================
+# Unreal Engine 5 - .gitignore
+# ===============================
+
+# Binaries and generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Build outputs
+Build/
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.log
+
+# Unreal Engine generated files
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Crash reports
+crashinfo--*
+
+# Packaging files
+*.pak
+*.sig
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Python cache (si usas scripts)
+__pycache__/
+*.pyc
+
+# Unreal Engine plugins (binarios generados)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Exclude local config overrides
+Saved/Config/WindowsEditor/
+
+# Keep source assets
+!Content/**/*.uasset
+!Content/**/*.umap
